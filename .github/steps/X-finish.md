@@ -1,25 +1,25 @@
 <!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
+  <<< Notas del autor: Finish >>>
+  Revisa lo que aprendimos, solicita retroalimentación, proporciona los próximos pasos.
 -->
 
-## Finish
+## Finalizar
 
-_Congratulations friend, you've completed this course!_
+_¡Felicidades amigo, has completado este curso!_
 
 <img src=https://octodex.github.com/images/Fintechtocat.png alt=celebrate width=300 align=right>
 
-Here's a recap of all the tasks you've accomplished in your repository:
+Aquí tienes un resumen de todas las tareas que has completado en tu repositorio:
 
-- We created an Actions workflow to lint our Markdown files.
-- You caught an issue in a file and fixed the issue before it could make it to `main`.
-- You learned how to use build artifacts for test reports.
-- You enabled branch protections to require the workflow to pass before merging.
+- Creamos un flujo de trabajo de Actions para revisar nuestros archivos Markdown.
+- Detectaste un problema en un archivo y lo corregiste antes de que pudiera llegar a `stemdo`.
+- Aprendiste a usar artefactos de compilación para informes de prueba.
+- Habilitaste protecciones de rama para requerir que el flujo de trabajo pase antes de la fusión.
 
-### What's next?
+### ¿Qué sigue?
 
-- Get more ideas of what you can do with [awesome actions](https://github.com/sdras/awesome-actions).
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/test-with-actions).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+- Obtén más ideas sobre lo que puedes hacer con [awesome actions](https://github.com/sdras/awesome-actions).
+- Nos encantaría saber qué opinas sobre este curso [en nuestro foro de discusión](https://github.com/orgs/skills/discussions/categories/test-with-actions).
+- [Realiza otro curso de GitHub Skills](https://github.com/skills).
+- [Lee la documentación de GitHub Getting Started](https://docs.github.com/get-started).
+- Para encontrar proyectos a los que contribuir, echa un vistazo a [GitHub Explore](https://github.com/explore).

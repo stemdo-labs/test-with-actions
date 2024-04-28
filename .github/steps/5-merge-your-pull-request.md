@@ -1,17 +1,17 @@
 <!--
-  <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Notas del autor: Paso 5 >>>
+  Comienza este paso reconociendo el paso anterior.
+  Define los términos y enlaza a docs.github.com.
 -->
 
-## Step 5: Merge your pull request
+## Paso 5: Fusiona tu pull request
 
-_Almost there! :heart:_
+_¡Casi estamos allí! :heart:_
 
-You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
+¡Ahora puedes [fusionar](https://docs.github.com/get-started/quickstart/github-glossary#merge) tu pull request!
 
-### :keyboard: Activity: Merge your pull request
+### :keyboard: Actividad: Fusiona tu pull request
 
-1. Go to the **Pull requests** tab.
-1. Click **Merge pull request**.
-1. _Once you turn on branch protection, Actions can no longer push directly to the `main` branch. Make sure that you're on the `ci` branch in the page you're following instructions from._ Wait about 20 seconds and then refresh the page. [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step.
+1. Ve a la pestaña **Pull requests**.
+1. Haz clic en **Merge pull request**.
+1. _Una vez que activas la protección de rama, las Acciones ya no pueden enviar directamente a la rama `stemdo`. Asegúrate de estar en la rama `ci` en la página desde la que estás siguiendo las instrucciones._ Espera unos 20 segundos y luego actualiza la página. [GitHub Actions](https://docs.github.com/actions) se actualizará automáticamente al siguiente paso.

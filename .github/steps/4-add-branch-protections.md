@@ -1,25 +1,25 @@
 <!--
-  <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Notas del autor: Paso 4 >>>
+  Comienza este paso reconociendo el paso anterior.
+  Define los términos y enlaza a docs.github.com.
 -->
 
-## Step 4: Add branch protections
+## Paso 4: Agregar protecciones de rama
 
-_Great job uploading test reports! :partying_face:_
+_¡Excelente trabajo subiendo informes de prueba! :partying_face:_
 
-Take a look at the merge box, you'll notice you can merge this even though the review process hasn't been met.
+Echa un vistazo al cuadro de fusión, notarás que puedes fusionar esto incluso si el proceso de revisión no se ha cumplido.
 
-Protected branches ensure that collaborators on your repository cannot make irrevocable changes to branches. Enabling protected branches also allows you to enable other optional checks and requirements, like required status checks and required reviews.
+Las ramas protegidas aseguran que los colaboradores en tu repositorio no puedan realizar cambios irrevocables en las ramas. Habilitar ramas protegidas también te permite habilitar otros controles y requisitos opcionales, como revisiones requeridas y verificaciones de estado requeridas.
 
-### :keyboard: Activity: Add branch protections
+### :keyboard: Actividad: Agregar protecciones de rama
 
-1. Go to **Branches** settings. You can navigate to that page manually by selecting the right-most tab in the top of the repository called **Settings** and then clicking **Branches**.
-1. Click **Add branch protection rule** under "Branch protection rules".
-1. Type `main` in **Branch name pattern**.
-1. Check **Require a pull request before merging**.
-1. Uncheck **Require approvals**.
-1. Check **Require status checks to pass before merging**.
-1. Check all build and test jobs that you'd like to see in the newly visible gray box.
-1. Click **Create**.
-1. _Once you turn on branch protection, Actions can no longer push directly to the `main` branch. Wait about 20 seconds and then go to the `ci` branch. [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step on the `ci` branch. You'll need to follow instructions on this branch._
+1. Ve a la configuración de **Ramas**. Puedes navegar a esa página manualmente seleccionando la pestaña más a la derecha en la parte superior del repositorio llamada **Configuración** y luego haciendo clic en **Ramas**.
+1. Haz clic en **Agregar regla de protección de rama** bajo "Reglas de protección de rama".
+1. Escribe `stemdo` en **Patrón de nombre de la rama**.
+1. Marca la casilla **Require a pull request before merging**.
+1. Desmarca la casilla **Require approvals**.
+1. Marca la casilla **Require status checks to pass before merging**.
+1. Marca todas las compilaciones y pruebas que te gustaría ver en el nuevo cuadro gris que se mostrará.
+1. Haz clic en **Crear**.
+1. _Una vez que activas la protección de rama, las Acciones ya no pueden enviar directamente a la rama `stemdo`. Espera unos 20 segundos y luego ve a la rama `ci`. [GitHub Actions](https://docs.github.com/actions) se actualizará automáticamente al siguiente paso en la rama `ci`. Deberás seguir las instrucciones en esta rama._

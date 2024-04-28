@@ -1,75 +1,73 @@
 <header>
 
 <!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
+  <<< Notas del autor: Encabezado del curso >>>
+  Incluye una imagen de 1280×640, el título del curso en minúsculas con descripción concisa en énfasis.
+  En la configuración de tu repositorio: habilita el repositorio de plantillas, agrega tu imagen social de 1280×640, elimina automáticamente las ramas principales.
+  Agrega tu licencia de código abierto, GitHub utiliza la licencia MIT.
 -->
 
-# Test with Actions
+# Prueba con Actions
 
-_Create workflows that enable you to use Continuous Integration (CI) for your projects._
+_Crea flujos de trabajo que te permitan utilizar Integración Continua (CI) para tus proyectos._
 
 </header>
 
 <!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
+  <<< Notas del autor: Inicio del curso >>>
+  Incluye botón de inicio, una nota sobre los minutos de Actions,
+  y dile al aprendiz por qué debería tomar el curso.
 -->
 
-## Welcome
+## Bienvenido
 
-[Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) can help you stick to your team’s quality standards by running tests and reporting the results on GitHub. CI tools run builds and tests, triggered by commits. The results post back to GitHub in the pull request. The goal is fewer issues in `main` and faster feedback as you work.
+[La integración continua](https://en.wikipedia.org/wiki/Continuous_integration) puede ayudarte a mantener los estándares de calidad de tu equipo ejecutando pruebas e informando los resultados en GitHub. Las herramientas de CI ejecutan compilaciones y pruebas, desencadenadas por confirmaciones. Los resultados se publican en GitHub en la solicitud de extracción. El objetivo es tener menos problemas en `stemdo` y obtener retroalimentación más rápida mientras trabajas.
 
-- **Who is this for**: Developers, DevOps Engineers, new GitHub users, students, teams.
-- **What you'll learn**: What continuous integration is, how to use GitHub Actions for CI, how to create a workflow that runs tests and produces test reports.
-- **What you'll build**: We'll use [remark-lint](https://github.com/remarkjs/remark-lint) to check the consistency of Markdown files.
-- **Prerequisites**: We assume you've completed [Hello GitHub Actions](https://github.com/skills/hello-github-actions) first.
-- **How long**: This course takes less than two hours to complete.
+- **Para quién es esto**: Desarrolladores, Ingenieros DevOps, nuevos usuarios de GitHub, estudiantes, equipos.
+- **Lo que aprenderás**: Qué es la integración continua, cómo usar GitHub Actions para CI, cómo crear un flujo de trabajo que ejecute pruebas y produzca informes de prueba.
+- **Qué construirás**: Usaremos [remark-lint](https://github.com/remarkjs/remark-lint) para verificar la consistencia de los archivos Markdown.
+- **Requisitos previos**: Suponemos que has completado [Hola GitHub Actions](https://github.com/skills/hello-github-actions) primero.
+- **Duración**: Este curso toma menos de dos horas para completarse.
 
-In this course, you will:
+En este curso, aprenderás a:
 
-1. Add a test workflow
-2. Fix the test
-3. Upload a test report
-4. Add branch protections
-5. Merge your pull request
+1. Agregar un flujo de trabajo de prueba
+2. Corregir la prueba
+3. Subir un informe de prueba
+4. Agregar protecciones de rama
+5. Fusionar tu solicitud de extracción
 
-### How to start this course
 
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
-  template_name: 'test-with-actions',
-  owner: '@me',
-  name: 'skills-test-with-actions',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
+### Cómo comenzar este curso siendo stemdoer
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=test-with-actions&owner=%40me&name=skills-test-with-actions&description=My+clone+repository&visibility=public)
+Simplemente espera, esta vista cambiará. 
+Haz click en la pestaña ``Actions`` y observa algo se está ejecutando.
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+### No eres stemdoer
+
+Adelante haz click en el botón.
+
+
+[![comenzar-curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_name=test-with-actions&template_owner=classroom-sebasnaa&description=Mi+repositorio+clonado&visibility=public)
+
+1. Haz clic derecho en **Comenzar curso** y abre el enlace en una nueva pestaña.
+2. En la nueva pestaña, la mayoría de las opciones se completarán automáticamente.
+   - Para el propietario, elige tu cuenta personal o una organización para alojar el repositorio.
+   - Recomendamos crear un repositorio público, ya que los repositorios privados [utilizarán minutos de Actions](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+   - Desplázate hacia abajo y haz clic en el botón **Crear repositorio** en la parte inferior del formulario.
+3. Después de que se cree tu nuevo repositorio, espera unos 20 segundos, luego actualiza la página. Sigue las instrucciones paso a paso en el README del nuevo repositorio.
 
 <footer>
 
 <!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
+  <<< Notas del autor: Pie de página >>>
+  Agrega un enlace para obtener soporte, página de estado de GitHub, código de conducta, enlace de licencia.
 -->
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/test-with-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Obtén ayuda: [Publica en nuestro foro de discusión](https://github.com/orgs/skills/discussions/categories/test-with-actions) &bull; [Revisa la página de estado de GitHub](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [Código de Conducta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [Licencia MIT](https://gh.io/mit)
 
 </footer>

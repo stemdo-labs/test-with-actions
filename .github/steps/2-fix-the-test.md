@@ -1,35 +1,38 @@
 <!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Notas del autor: Paso 2 >>>
+  Comienza este paso reconociendo el paso anterior.
+  Define los términos y enlaza a docs.github.com.
 -->
 
-## Step 2: Fix the test
 
-_Great job adding the templated workflow! :tada:_
+## Paso 2: Corregir la prueba
 
-Adding that file to this branch is enough for GitHub Actions to begin running CI on your repository.
+_¡Excelente trabajo al agregar el workflow con plantilla! :tada:_
 
-When a GitHub Actions workflow is running, you should see some checks in progress, like the screenshot below.
+Agregar ese archivo a esta rama es suficiente para que GitHub Actions comience a ejecutar CI en tu repositorio.
 
-<img alt="checks in progress in a merge box" src=https://user-images.githubusercontent.com/16547949/66080348-ecc5f580-e533-11e9-909e-c213b08790eb.png width=400 />
+Cuando un workflow de GitHub Actions está en ejecución, deberías ver algunas verificaciones en progreso, como se muestra en la captura de pantalla a continuación.
 
-You can follow along as GitHub Actions runs your job by going to the **Actions** tab or by clicking "Details" in the merge box below.
+<img alt="verificaciones en progreso en un cuadro de fusión" src=https://user-images.githubusercontent.com/16547949/66080348-ecc5f580-e533-11e9-909e-c213b08790eb.png width=400 />
 
-When the tests finish, you'll see a red X :x: or a green check mark :heavy_check_mark: in the merge box. At that point, you can access the logs for the build job and its associated steps.
+Puedes seguir el progreso mientras GitHub Actions ejecuta tu trabajo yendo a la pestaña **Actions** o haciendo clic en "Details" en el cuadro de fusión a continuación.
 
-_By looking at the logs, can you identify which tests failed?_ To find it, go to one of the failed builds and scroll through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
+Cuando las pruebas finalicen, verás una marca de verificación roja :x: o una marca de verificación verde :heavy_check_mark: en el cuadro de fusión. En ese momento, puedes acceder a los registros del trabajo de compilación y sus pasos asociados.
 
-<img alt="screenshot of a sample build log with the names of the tests blurred out" src=https://user-images.githubusercontent.com/16547949/65922013-e740a200-e3b1-11e9-8151-faf52c30201e.png width=400 />
 
-If the checks don't appear or if the checks are stuck in progress, there's a few things you can do to try and trigger them:
+_Al observar los registros, ¿puedes identificar qué pruebas fallaron?_ Para encontrarlo, ve a una de las compilaciones fallidas y desplázate por el registro. Busca una sección que liste todas las pruebas unitarias. Estamos buscando el nombre de la prueba con una "x".
 
-- Refresh the page, it's possible the workflow ran and the page just hasn't been updated with that change.
-- Try making a commit on this branch. Our workflow is triggered with a `push` event, and committing to this branch will result in a new `push`.
-- Edit the workflow file on GitHub and ensure there are no red lines indicating a syntax problem.
+<img alt="captura de pantalla de un registro de compilación de muestra con los nombres de las pruebas desenfocados" src=https://user-images.githubusercontent.com/16547949/65922013-e740a200-e3b1-11e9-8151-faf52c30201e.png width=400 />
 
-### :keyboard: Activity: Fix the test
+Si las verificaciones no aparecen o si las verificaciones están atascadas en progreso, hay algunas cosas que puedes hacer para intentar activarlas:
 
-1. Update the contents in the `ci` branch to get the test to pass. You need to look at the logs to see what caused the test to fail.
-1. **Commit changes**.
-1. Wait about 20 seconds and then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step.
+- Actualiza la página, es posible que el workflow se haya ejecutado y la página simplemente no se haya actualizado con ese cambio.
+- Intenta hacer un commit en esta rama. Nuestro workflow se activa con un evento `push`, y hacer un commit en esta rama resultará en un nuevo `push`.
+- Edita el archivo de workflow en GitHub y asegúrate de que no haya líneas rojas que indiquen un problema de sintaxis.
+
+
+### :keyboard: Actividad: Corregir la prueba
+
+1. Actualiza el contenido en la rama `ci` para que la prueba pase. Necesitas mirar los registros para ver qué causó que la prueba fallara.
+1. **CCommit changes**.
+1. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo instrucciones). [GitHub Actions](https://docs.github.com/actions) se actualizará automáticamente al siguiente paso.
